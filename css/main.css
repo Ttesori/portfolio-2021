@@ -8,6 +8,19 @@
   src: url("/webfonts/32214F_0_0.eot?#iefix") format("embedded-opentype"), url("/webfonts/32214F_0_0.woff2") format("woff2"), url("/webfonts/32214F_0_0.woff") format("woff"), url("/webfonts/32214F_0_0.ttf") format("truetype");
 }
 
+/* Colors */
+:root {
+  --tt-primary: #4ba39c;
+}
+
+#titleBar {
+  background:var(--tt-primary) !important;
+}
+
+#titleBar a img {
+  display:none;
+}
+
 #header > header img.avatar {
   margin-bottom: 0.25rem;
   margin-top: 0.5rem;
