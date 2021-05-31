@@ -1,24 +1,11 @@
 /* Felt That font from MyFonts */
-@import url("https://hello.myfonts.net/count/32214f");
+@import url("http://hello.myfonts.net/count/32214f");
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400|Roboto+Slab:400");
 @font-face {
   font-family: 'FeltThat';
   src: url("/webfonts/32214F_0_0.eot");
   src: url("/webfonts/32214F_0_0.eot?#iefix") format("embedded-opentype"), url("/webfonts/32214F_0_0.woff2") format("woff2"), url("/webfonts/32214F_0_0.woff") format("woff"), url("/webfonts/32214F_0_0.ttf") format("truetype");
-}
-
-/* Colors */
-:root {
-  --tt-primary: #4ba39c;
-}
-
-#titleBar {
-  background:var(--tt-primary) !important;
-}
-
-#titleBar a img {
-  display:none;
 }
 
 #header > header img.avatar {
