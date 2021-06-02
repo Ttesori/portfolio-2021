@@ -11,15 +11,6 @@
     url('/webfonts/32214F_0_0.ttf') format('truetype');
 }
 
-@media screen and (max-width: 1024px) {
-  #titleBar {
-    background: #4ba39c !important;
-  }
-  #titleBar img {
-    display: none !important;
-  }
-}
-
 #header > header img.avatar {
   margin-bottom: 0.25rem;
   margin-top: 0.5rem;
@@ -28,6 +19,7 @@
 .major h2,
 #logo {
   font-family: 'FeltThat';
+  line-height: 1;
 }
 
 #main header.major h2 + p {
@@ -62,6 +54,25 @@
 
 #main .features article .image img {
   border: 2px solid #f1efee;
+}
+
+@media screen and (max-width: 1024px) {
+  #titleBar {
+    background: #4ba39c !important;
+  }
+  #titleBar img {
+    display: none !important;
+  }
+
+  .button.small,
+  .button.alt {
+    padding: 0 1rem;
+    margin-bottom: 0.5rem;
+  }
+  #main header.major h2 + p {
+    font-family: 'Roboto Slab';
+    font-size: 1.3rem;
+  }
 }
 
 /*
