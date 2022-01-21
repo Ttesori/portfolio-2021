@@ -105,3 +105,9 @@ ul.feature-icons li {
     line-height: 1.6;
   }
 }
+@media screen and (min-width: 1024px) {
+  #main p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+}
